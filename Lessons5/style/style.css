@@ -1,61 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(105, 177, 224);
+}
+
 .container{
-    position: relative;
-    background-color: rgb(17, 190, 133);
-    width: 1050px;
-    height: 500px;
-    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
 }
 
-.inner{
-    position: absolute;
+.block-1{        
+    background-color: antiquewhite;
+    padding: 25px;
+    height: 260px;
     width: 200px;
-    height: 300px;
-}
-
-.inner:hover{
-    width: 160px;
-    height: 160px;
-}
-
-.block-1{
-    background-color: violet;
-    top: 50px;
-    left: 50px;
-    
+    border: 2px solid black;
+    text-align: center;
 }
 
 .block-2{
-    background-color: violet;
-    top: 50px;
-    left: 420px;
-    
+    background-color: antiquewhite;
+    padding: 25px;
+    height: 260px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
 }
 
 .block-3{
-    background-color: violet;
-    top: 50px;
-    right: 50px;
+    background-color: antiquewhite;
+    padding: 25px;
+    height: 260px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
 }
 
+.card{
+    position: absolute;
+    border: solid 2px black;
+    left: 127px;
+    top: 350px;
+    max-width: 1107px;
+    background-color: rgb(186, 174, 243);
+    align-items: center;
+    text-align: center;    
+}
 
-.card-container .card{
-    width: 300px;
-    height: 250px;
+.block-1 img{
     position: relative;
-}
-
-.card-container .card img{
-    width: 400px;
-    height: 250px;
+    height: 65%;
+    width: 90%;
     object-fit: cover;
 }
 
-.card-container .card .info{
-    position: absolute;
-    bottom: 0;
-    left: 100;
-    color: azure;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    text-align: justify;
+.block-2 img{
+    position: relative;
+    height: 65%;
+    width: 90%;
+    object-fit: cover;
+}
+
+.block-3 img{
+    position: relative;
+    height: 65%;
+    width: 90%;
+    object-fit: cover;
 }
