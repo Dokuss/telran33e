@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+input{
+    height: 30px;
+    padding: 0 10px;
+    border: 2px solid black;
+    width: 100%;
+    transition: border-bottom;
+    transition-duration: 0,5s;
+}
+
+input:focus{
+    outline: none;
+    background-color: white;
+    border-bottom: 4px solid black;
+}
+
+textarea{
+    height: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 100%;
+    resize: none;
+}
+
+textarea:focus{
+    outline: none;
+    background-color: white;
+    border-bottom: 4px solid black;
+}
+
+button{
+    width: 100px;
+    align-self: flex-end;
+    height: 30px;
+    border: 2px solid black;
+    background-color: white;
+    transition: box-shadow, border-bottom;
+    transition-duration: 0,5s;
+}
+
+button:hover{
+    box-shadow: 2px 2px 5px black;
+}
+
+button:focus{
+    outline: none;
+    border-bottom: 4px solid black;
+}
