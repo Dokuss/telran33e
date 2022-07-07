@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(87, 187, 125);
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form{
+    box-sizing: border-box;
+    border-radius: 25px;
+    height: 290px;
+    width: 230px;
+    background-color: lightgreen;
+    margin-top: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+label{outline: none;
+    margin-top: 10px;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+}
+
+input{
+    outline: none;
+    padding: 10px;
+    background-color: aliceblue;
+    box-sizing:border-box;  
+    border:transparent;
+    border-radius: 10px;
+    height: 50px;  
+}
+
+button{
+    outline: none;
+    margin: 10px;
+    height: 37px;
+    width: 93%;
+    background-color: rgb(253, 253, 131);
+    box-sizing: border-box;
+    border: transparent;
+}
+
+form:hover{
+    border: 2px solid snow;
+}
+
+input:hover{
+    box-shadow: 2px 2px 5px rgb(133, 154, 245);
+}
+
+button:focus{
+    outline: none;
+    background-color: rgb(250, 211, 104);
+    
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(133, 154, 245);
+}
